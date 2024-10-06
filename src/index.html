@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Satisfy&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Sam | Portfolio</title>
+</head>
+
+<body>
+    <header>
+        <nav class="nav-bg w-full border-b" id="navbar">
+            <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+                <a href="index.html" class="flex items-center space-x-3 rtl:space-x-reverse">
+                    <img src="./assets/Samantha_Logo.png" class="h-14" alt="Samantha Logo">
+                </a>
+
+                <!-- Hamburger Button -->
+                <button id="hamburger-button" type="button"
+                    class="inline-flex items-center justify-center p-2 w-10 h-10 text-sm text-white rounded-lg hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 md:hidden"
+                    aria-controls="navbar-hamburger" aria-expanded="false">
+                    <span class="sr-only">Open main menu</span>
+                    <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                        viewBox="0 0 17 14">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M1 1h15M1 7h15M1 13h15" />
+                    </svg>
+                </button>
+
+                <!-- Menu -->
+                <div class="items-center justify-center hidden w-full md:flex md:w-auto md:order-1"
+                    id="navbar-hamburger">
+                    <ul
+                        class="flex flex-col p-4 md:p-0 mt-4 font-medium text-lg rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 tracking-wide mr-6 lg:mr-0">
+                        <li>
+                            <a href="#about"
+                                class="block py-2 px-3 text-white md:p-0 hover:text-gray-300 transition">About
+                                Me</a>
+                        </li>
+                        <li>
+                            <a href="#poems"
+                                class="block py-2 px-3 text-white md:p-0 hover:text-gray-300 transition">Poems</a>
+                        </li>
+                        <li>
+                            <a href="#music"
+                                class="block py-2 px-3 text-white md:p-0 hover:text-gray-300 transition">Music</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div>
+        <section id="about" class="py-12">
+            <h1 class="text-center pb-6 font-bold title text-5xl underline">About me</h1>
+            <div class="flex flex-col lg:flex-row lg:px-6 justify-center items-center max-w-7xl mx-auto">
+                <img src="./assets/Samantha_Hero.jpg" class="w-2/3 lg:w-1/2 rounded mr-8 shadow-lg" alt="Samantha Hero">
+                <div class="px-6 py-4 lg:px-0 lg:py-0">
+                    <h3 class="text-2xl font-bold mb-4 text-center lg:text-left">Samantha Figueroa</h3>
+                    <p class="text-sm text-gray-600 leading-relaxed">
+                        My name is Samantha Figueroa, I have always gone by Sam. I am a 24 year old born and raised in
+                        LA. I always had a
+                        curiosity for music, however I never really focused on it because I thought I had no talent
+                        since no one in my family is
+                        musically inclined. Once I had enough money saved up, I was able to get my first guitar.
+                        Therefore, I didn't start
+                        singing till the age of 13. I wrote my first song for my little sister, after she was diagnosed
+                        with cancer. This song
+                        was my way of telling her to stay strong which in the end helped her until she was finally free.
+                        Ever since then I have
+                        been writing and learning new instruments. These include the piano and ukulele. I also have been
+                        learning to produce and
+                        anything about music in general. The music I normally make sticks to the pop or
+                        singer/songwriter genre. I prefer to
+                        make music that is very low-key, simple and focuses on the artist rather than the music. I have
+                        dabbled in other genres
+                        though. For example. I was a feature for one of my friends song which was a EDM inspired beat.
+                        The last song I released
+                        was more pop/rock inspired beat, I wanted to try to get people to dance with that one. Aside
+                        from my family, music is
+                        one of the most important things in my life. Without it, I would not be here today. I think
+                        music is a form of art in
+                        which someone can tell a story without it having to make sense or even be long. I also feel like
+                        music is a way of
+                        telling someone how you feel without telling them.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="poems" class="py-12 bg-gray-100">
+            <h1 class="text-center pb-6 font-bold text-5xl underline">Poems</h1>
+            <div class="grid grid-cols-1 md:px-4 lg:grid-cols-3 gap-4 min-h-full justify-items-center items-start">
+                <div class="block max-w-md p-6 bg-white border border-gray-200 rounded-lg shadow w-full">
+                    <h3 class="text-center font-semibold text-xl p-4">3 Wishes</h3>
+                    <div class="text-sm px-2">
+                        <div class="py-2">
+                            <p>If I had three wishes</p>
+                            <p>I’d waste them all on you</p>
+                        </div>
+                        <div class="py-2">
+                            <p>I’d wish to have you here with me</p>
+                            <p>To have those nights where</p>
+                            <p>We’d be watching your favorite movies</p>
+                            <p>Eating junk food that you couldn’t have</p>
+                            <p>Laughing every time I lost poker</p>
+                            <p>and I’d be hugging you</p>
+                        </div>
+                        <div class="py-2">
+                            <p>I’d wish to still be able to talk to you</p>
+                            <p>So I can tell you about a boy I’m seeing</p>
+                            <p>Just to hear you call him names</p>
+                            <p>Not writing this as my only form of communication</p>
+                            <p>or having to visiting your grave when I miss you</p>
+                        </div>
+                        <div class="py-2">
+                            <p>I’d wish to visit you when I needed it the most</p>
+                            <p>Like right before my marriage</p>
+                            <p>When I buy my first house</p>
+                            <p>Even when I have my first kids</p>
+                            <p>Lastly, when it’s my time to go</p>
+                        </div>
+                        <div class="py-2">
+                            <p>If I had three wishes</p>
+                            <p>They would all be spent on you</p>
+                        </div>
+                        <div>
+                            <p class="text-right py-1 italic text-xs">Samantha F.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="block max-w-md p-6 bg-white border border-gray-200 rounded-lg shadow w-full">
+                    <h3 class="text-center font-semibold text-xl p-4">Stranger</h3>
+                    <div class="text-sm px-2">
+                        <div class="py-2">
+                            <p>I want to learn everything there is about you</p>
+                        </div>
+                        <div class="py-2">
+                            <p>I want to know every small detail like</p>
+                            <p>the fact that one of your favorite colors is blue</p>
+                            <p>and that the drops on roller coasters give you goosebumps</p>
+                        </div>
+                        <div class="py-2">
+                            <p>I want to explore every inch and curve on your body</p>
+                            <p>only to find out you have a birthmark on the bottom of your left foot</p>
+                            <p>and dimples on your cheek you are not fond of</p>
+                        </div>
+                        <div class="py-2">
+                            <p>I want to learn about all the things that make you happy like</p>
+                            <p>the smell of popcorn at the movie theaters</p>
+                            <p>and the sound of children's laughter</p>
+                        </div>
+                        <div class="py-2">
+                            <p>I want to tease you about the things that scare you the most like</p>
+                            <p>heights or spiders and scuba diving</p>
+                            <p>but more importantly losing loved ones</p>
+                        </div>
+                        <div class="py-2">
+                            <p>I want to hear about the things you hate like</p>
+                            <p>glamping or scary movies</p>
+                            <p>and the sound styrofoam makes when they clash together</p>
+                        </div>
+                        <div class="py-2">
+                            <p>I want you to drive me crazy with</p>
+                            <p>the fact that you talk aloud in your sleep</p>
+                            <p>and how you sing at the top of your lungs despite it being off key</p>
+                        </div>
+                        <div class="py-2">
+                            <p>I want to love you just as much as you love</p>
+                            <p>sunsets on the beach</p>
+                            <p>and rainy days because we get to watch movies all day long</p>
+                        </div>
+                        <div class="py-2">
+                            <p>I want you to tell me that you are who you are because</p>
+                            <p>you’re the only male in the family of 4</p>
+                            <p>and you love your mother more than anything else in the world</p>
+                        </div>
+                        <div class="py-2">
+                            <p>I want to know what you want in your future</p>
+                            <p>like traveling the world</p>
+                            <p>and starting a family of one boy, one girl, a dog and a cat</p>
+                        </div>
+                        <div class="py-2">
+                            <p>I want to learn everything about you</p>
+                            <p>Until there’s nothing left</p>
+                        </div>
+                        <div class="py-2">
+                            <p>Until you’re no longer a stranger.</p>
+                        </div>
+                        <div>
+                            <p class="text-right py-1 italic text-xs">Samantha F.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="block max-w-md p-6 bg-white border border-gray-200 rounded-lg shadow w-full">
+                    <h3 class="text-center font-semibold text-xl p-4">Glass</h3>
+                    <div class="text-sm px-2">
+                        <div class="py-2">
+                            <p>You broke me</p>
+                            <p>Into twenty-one pieces</p>
+                            <p>It was really easy for you</p>
+                            <p>You always looked through me</p>
+                            <p>You thought my fragility was beauty</p>
+                            <p>You liked what you saw on the outside</p>
+                            <p>But couldn’t see the scratches I had on the inside</p>
+                            <p>Every piece shattered was a piece of my soul</p>
+                            <p>But you didn’t care because you love to see things break</p>
+                        </div>
+                        <div>
+                            <p class="text-right py-1 italic text-xs">Samantha F.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="music" class="py-12">
+            <h1 class="text-center pb-6 font-bold text-5xl underline">Music</h1>
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-4 min-h-full justify-items-center items-start md:px-5">
+                <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow">
+                    <a href="https://open.spotify.com/album/2RL9ifo6GKANSGAQZkmV0c?si=8UxiwYHVSTCxa0WcSl6XMw"
+                        target="_blank" rel="noopener">
+                        <img class="rounded-t-lg shadow-sm" src="./assets/Forever.png" alt="Forever" />
+                    </a>
+                    <div class="p-5">
+                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900">Forever</h5>
+                        <p class="text-sm italic font-normal text-gray-700">Revived Ghost</p>
+                        <p class="mb-3 text-sm italic font-normal text-gray-700">Samantha Figueroa</p>
+                        <a href="https://open.spotify.com/album/2RL9ifo6GKANSGAQZkmV0c?si=8UxiwYHVSTCxa0WcSl6XMw"
+                            class="block items-center px-3 py-2 text-sm font-medium text-center text-white bg-green-700 rounded-lg hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-green-300"
+                            target="_blank" rel="noopener">
+                            Listen
+                        </a>
+                    </div>
+                </div>
+                <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow">
+                    <a href="https://open.spotify.com/album/64jchrpYAEGDDBn6ZmgNnp?si=yiBhWYsZQJ-ej8b8oYepbQ"
+                        target="_blank" rel="noopener">
+                        <img class="rounded-t-lg shadow-sm" src="./assets/Take_A_Hint.png" alt="Take a hint" />
+                    </a>
+                    <div class="p-5">
+                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900">Take A Hint</h5>
+                        <p class="mb-3 text-sm italic font-normal text-gray-700">Samantha Figueroa</p>
+                        <a href="https://open.spotify.com/album/64jchrpYAEGDDBn6ZmgNnp?si=yiBhWYsZQJ-ej8b8oYepbQ"
+                            class="block items-center px-3 py-2 text-sm font-medium text-center text-white bg-green-700 rounded-lg hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-green-300"
+                            target="_blank" rel="noopener">
+                            Listen
+                        </a>
+                    </div>
+                </div>
+                <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow">
+                    <a href="https://open.spotify.com/album/7IvWv7E0ug92a6z3JNAATg?si=nGsKQbBzQIy-kMECM_KJHg"
+                        target="_blank" rel="noopener">
+                        <img class="rounded-t-lg shadow-sm" src="./assets/Something_New.png" alt="Something new" />
+                    </a>
+                    <div class="p-5">
+                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900">Something New</h5>
+                        <p class="mb-3 text-sm italic font-normal text-gray-700">Samantha Figueroa</p>
+                        <a href="https://open.spotify.com/album/7IvWv7E0ug92a6z3JNAATg?si=nGsKQbBzQIy-kMECM_KJHg"
+                            class="block items-center px-3 py-2 text-sm font-medium text-center text-white bg-green-700 rounded-lg hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-green-300"
+                            target="_blank" rel="noopener">
+                            Listen
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="flex justify-center py-4">
+            <a href="#navbar"
+                class="items-center px-3 py-2 font-medium text-center text-sm text-white bg-green-600 rounded-lg hover:bg-green-700 focus:ring-4 focus:outline-none focus:ring-green-300">Back
+                to the top <i class="fa fa-chevron-up"></i></a>
+
+        </div>
+
+    </div>
+
+    <footer class="w-full py-8">
+        <div class="flex flex-col items-center space-y-4">
+            <div>
+                <p class="text-center text-sm">Samantha Figueroa &copy; 2024</p>
+            </div>
+            <div class="flex space-x-6">
+                <a href="https://www.instagram.com/samanthafigueroa_?igsh=MWNlNDltZXhxdjdp" target="_blank"
+                    aria-label="Instagram" rel="noopener">
+                    <i class="fa fa-instagram icons"></i>
+                </a>
+                <a href="https://open.spotify.com/artist/1ZPGzJ332t4vJGcooC0OSX?si=xpOz4x2kRUmCa7clKy7xqA"
+                    target="_blank" aria-label="Spotify" rel="noopener">
+                    <i class="fa fa-spotify icons"></i>
+                </a>
+                <a href="https://www.youtube.com/@SamanthaFigueroa" target="_blank" aria-label="YouTube" rel="noopener">
+                    <i class="fa fa-youtube-play icons"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>

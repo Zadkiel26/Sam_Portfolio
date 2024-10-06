@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    scroll-behavior: smooth;
+    
+}
+
+.nav-bg {
+    background-color: #78938A;
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+}
+
+section {
+    font-family: 'Poppins', sans-serif;
+}
+
+section h1 {
+    font-family: 'Satisfy', sans-serif;
+    color: #92BA92;
+}
+
+section h3 {
+    color: #92BA92;
+}
+
+.icons {
+    font-size: 1.5rem !important;
+}
+
+footer {
+    background-color: #78938A;
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+}
